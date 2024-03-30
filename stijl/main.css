@@ -1,0 +1,202 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    nav ul {
+        display: flex;
+        background-color: #BD560D;
+
+    }
+
+    nav li {
+        padding: 7px;
+    }
+
+    .row {
+        display: flex;
+
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    background-color: #F57114;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 3px solid #FFD700;
+
+}
+
+nav ul li a {
+    color: #FFF;
+    padding: 10px 16px;
+    display: block;
+    text-decoration: none;
+    background-color: #BD560D;
+}
+
+h3.body1 {
+    color: #BD560D;
+}
+
+.col-3 {
+    background-color: #FFB785;
+    display: inline-block;
+}
+
+.col-9 {
+    display: inline-block;
+}
+
+.content {
+    padding: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.body2 {
+    display: inline-block;
+    padding: 5px;
+    width: 50%;
+}
+
+#hannah {
+    float: right;
+    width: 50%;
+    margin: 15px;
+}
+
+#jesse {
+    float: left;
+    padding: 10px;
+    width: 50%;
+    margin: 15px;
+}
+
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #D15F0F;
+    color: #fff;
+    border: none;
+    margin: 8px 0;
+    border-radius: 4px;
+    padding: 14px 25px;
+    cursor: pointer;
+}
+
+.embed-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #D15F0F;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+
+}
